@@ -10,11 +10,11 @@ import getUserProfile from "@/libs/getUserProfile";
 export default async function TopMenu(){
 
     const session = await getServerSession(authOptions)
-        
+    
 
     return(
         <div className={styles.menucontainer}>
-            <Link href="http://localhost:3000/">
+            <Link href="https://project-software-dev2.vercel.app/">
             <Image src={"/img/LOGO.jpg"} className={styles.logoimg} alt="logo"
             width={0} height={0} sizes="100vh"/>
             </Link>
